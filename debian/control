@@ -1,11 +1,11 @@
 Source: parrot-drivers
-Priority: optional
+Priority: contrib/optional
 Maintainer: Parrot Devel Team <parrot-devel@lists.parrotsec.org>
 Uploaders: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>,
            Lisetta "Sheireen" Ferrero <sheireen@parrotsec.org>
 Standards-Version: 3.9.8
 Section: info
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 10)
 Build-Depends-Indep: pkg-config
 Homepage: http://www.parrotsec.org/
 
@@ -13,7 +13,6 @@ Package: parrot-drivers
 Architecture: all
 Depends: firmware-linux-free, firmware-linux
 Recommends: alsa-firmware-loaders,
-            atmel-firmware,
             b43-fwcutter,
             bluez-firmware,
             bcmwl-kernel-sources,
@@ -44,7 +43,6 @@ Recommends: alsa-firmware-loaders,
             firmware-ralink,
             firmware-realtek,
             firmware-ti-connectivity,
-            flashplugin-nonfree,
             gobi-loader,
             hfsprogs,
             hfsutils,
@@ -56,8 +54,6 @@ Recommends: alsa-firmware-loaders,
             prism2-usb-firmware-installer,
             reiser4progs,
             reiserfsprogs,
-            usbprog,
-            usbprog-gui,
             wmaloader,
             xfsdump,
             xfsprogs,

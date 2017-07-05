@@ -1,3 +1,10 @@
+parrot-drivers (1.1) testing; urgency=medium
+
+  * Remove usbprog.
+  * Move to contrib.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Wed, 05 Jul 2017 17:37:55 +0200
+
 parrot-drivers (1.0) testing; urgency=medium
 
   * Update for Parrot 3.5
