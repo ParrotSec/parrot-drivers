@@ -1,3 +1,10 @@
+parrot-drivers (1.3) testing; urgency=medium
+
+  * Bump debian standards 4.0.0
+  * Drop zfs support.
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Fri, 13 Oct 2017 18:50:20 +0200
+
 parrot-drivers (1.2) testing; urgency=medium
 
   * Add ZFS support.
