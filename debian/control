@@ -58,8 +58,6 @@ Recommends: alsa-firmware-loaders,
             xfsdump,
             xfsprogs,
             zd1211-firmware,
-            zfsutils-linux,
-            zfs-fuse
 Suggests: firmware-ipw2x00
 Priority: optional
 Description: Parrot essential drivers metapackage
